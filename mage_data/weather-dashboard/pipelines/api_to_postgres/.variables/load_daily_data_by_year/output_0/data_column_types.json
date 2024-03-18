@@ -1,0 +1,1 @@
+{"station_id": "str", "_date": "datetime64[ns]", "_element": "str", "data_value": "int64", "m_flag": "str", "s_flag": "str"}

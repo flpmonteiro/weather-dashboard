@@ -1,3 +1,6 @@
+personal-gcp.json
+*.parquet
+
 ### dbt ###
 target/
 dbt_modules/
