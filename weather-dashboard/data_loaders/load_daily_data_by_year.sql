@@ -1,1 +1,0 @@
-SELECT * from ghcn_d.year_2024 LIMIT 10;

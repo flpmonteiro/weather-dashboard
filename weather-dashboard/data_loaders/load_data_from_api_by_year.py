@@ -35,7 +35,9 @@ def load_data_from_api(*args, **kwargs):
         'obs-time': pd.Int64Dtype()
     }
 
-    year = 2024
+    now = kwargs.get('execution_date')
+    year = now.year
+    
     url = f'https://www.ncei.noaa.gov/pub/data/ghcn/daily/by_year/{year}.csv.gz'
 
     df = pd.read_csv(
@@ -47,7 +49,6 @@ def load_data_from_api(*args, **kwargs):
     )
 
     df['date'] = pd.to_datetime(df['date'], format='%Y%m%d')
-
     return df
 
 @test
