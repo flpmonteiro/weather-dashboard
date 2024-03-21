@@ -18,7 +18,8 @@ def export_data_to_big_query(df: DataFrame, **kwargs) -> None:
     """
     now = kwargs.get('execution_date')
     year = now.year
-    table_id = f'weather-dashboard-417618.ghcn_d.year_202{year}'
+    
+    table_id = f'weather-dashboard-417618.ghcn_d.year_{year}'
     config_path = path.join(get_repo_path(), 'io_config.yaml')
     config_profile = 'default'
 
