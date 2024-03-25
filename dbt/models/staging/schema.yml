@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: staging
+    database: weather-dashboard-417618
+    schema: ghcn_d
+    tables:
+      - name: year_2021
+      - name: year_2022
+      - name: year_2023
+      - name: year_2024
+
+models:
+  - name: stg_year_2024
