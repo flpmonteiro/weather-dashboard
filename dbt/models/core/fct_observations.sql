@@ -8,7 +8,6 @@ with unioned as (
         select *
         from {{ source("staging", "year_" ~ year) }}
         {% if var('is_test_run', default=true) %}
-            order by rand()
             limit 500
         {% endif %}
         ),
