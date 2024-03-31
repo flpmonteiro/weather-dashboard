@@ -1,0 +1,33 @@
+version: 2
+
+sources:
+  - name: staging
+    database: weather-dashboard-417618
+    schema: ghcn_d
+    tables:
+      - name: countries
+      - name: stations
+      - name: year_2001
+      - name: year_2002
+      - name: year_2003
+      - name: year_2004
+      - name: year_2005
+      - name: year_2006
+      - name: year_2007
+      - name: year_2008
+      - name: year_2009
+      - name: year_2010
+      - name: year_2011
+      - name: year_2012
+      - name: year_2013
+      - name: year_2014
+      - name: year_2015
+      - name: year_2016
+      - name: year_2017
+      - name: year_2018
+      - name: year_2019
+      - name: year_2020
+      - name: year_2021
+      - name: year_2022
+      - name: year_2023
+      - name: year_2024
