@@ -1,3 +1,9 @@
+{{
+    config(
+        materialized='table'
+    )
+}}
+
 
 with unioned as (
 {% for year in range(var('start_year'), var('end_year')+1) %}
