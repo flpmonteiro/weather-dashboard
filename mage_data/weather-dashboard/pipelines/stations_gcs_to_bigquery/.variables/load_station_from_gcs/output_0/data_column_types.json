@@ -1,0 +1,1 @@
+{"id": "str", "latitude": "float64", "longitude": "float64", "elevation": "float64", "state": "str", "name": "str", "gsn_flag": "str", "hcn_crn_flag": "str", "wmo_id": "float64"}
